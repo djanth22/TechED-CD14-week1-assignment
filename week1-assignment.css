@@ -1,6 +1,7 @@
 html,
 body {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   background-color: rgb(43, 8, 7);
 }
@@ -28,7 +29,6 @@ body {
 .navigation-bar-container {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
   background-color: #7a93a81a;
   width: 100%;
   position: fixed;
@@ -40,11 +40,10 @@ body {
   text-align: center;
   text-decoration: none;
   color: rgb(213, 151, 255);
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 1vw;
   background-color: #994c4c;
   height: 30px;
-  width: 100px;
+  width: 6vw;
   padding: 10px;
   position: relative;
   top: 22px;
@@ -84,6 +83,7 @@ footer {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100vw;
   margin: 2px;
 }
 
@@ -96,7 +96,7 @@ footer {
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
-  top: 200px;
+  top: 400px;
   left: 100px;
 }
 
@@ -117,27 +117,25 @@ footer {
   margin-left: 1vw;
   margin-right: 1vw;
   position: relative;
-  left: 20px;
-  top: 60px;
+  top: 10px;
 }
 
 .contact-links {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
-  left: 10%;
-  bottom: 30px;
+  justify-content: center;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .contact-title {
-  position: relative;
-  left: 40%;
-  top: 2px;
+  text-align: center;
+  width: 100%;
 }
 
 .BTT {
   position: relative;
-  left: 49%;
+  left: 38vw;
   bottom: 60px;
   background-color: rgb(174, 174, 252);
   text-decoration: none;
