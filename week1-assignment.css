@@ -120,7 +120,7 @@ footer {
   margin: 20px;
   padding: 5px;
   position: relative;
-  left: 90px;
+  left: 20px;
   top: 60px;
 }
 
@@ -131,4 +131,13 @@ footer {
   padding: 40px;
   bottom: 30px;
   left: 40%;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 10px;
+  top: 84px;
+  height: 20px;
 }
