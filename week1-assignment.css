@@ -4,6 +4,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   background-color: rgb(43, 8, 7);
+  overflow-x: hidden;
 }
 
 .title {
