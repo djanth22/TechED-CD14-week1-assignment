@@ -96,6 +96,8 @@ footer {
 }
 
 .top-sec {
+  display: flex;
+  flex-direction: column;
   background-image: url(knot2-v2.jpg);
   position: relative;
   background-size: cover;
@@ -105,6 +107,8 @@ footer {
 }
 
 .sec-1 {
+  display: flex;
+  flex-direction: column;
   background-image: url(knot2-v2.jpg);
   position: relative;
   background-size: cover;
@@ -114,6 +118,8 @@ footer {
 }
 
 .sec-2 {
+  display: flex;
+  flex-direction: column;
   background-image: url(knot2-v2.jpg);
   position: relative;
   background-size: cover;
@@ -123,6 +129,8 @@ footer {
 }
 
 .sec-3 {
+  display: flex;
+  flex-direction: column;
   background-image: url(knot2-v2.jpg);
   position: relative;
   background-size: cover;
@@ -213,6 +221,8 @@ footer {
 }
 
 .section-image {
+  display: flex;
+  flex-direction: column;
   height: 700px;
   width: 700px;
   position: relative;
@@ -222,6 +232,8 @@ footer {
 }
 
 .anvil {
+  display: flex;
+  flex-direction: column;
   position: relative;
   top: 150px;
   width: 600px;
