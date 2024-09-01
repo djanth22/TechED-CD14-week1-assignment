@@ -3,12 +3,10 @@ body {
   flex-direction: column;
   justify-content: center;
   background-image: url(knot.jpg);
-  background-size: contain;
+  background-size: auto;
   background-position: center;
-  width: 100vw;
   overflow-x: hidden;
   position: relative;
-  right: 20px;
 }
 
 .title {
@@ -102,8 +100,10 @@ footer {
   position: relative;
   background-size: auto;
   background-position: center;
-  height: fit-content;
+  height: 900px;
   width: 100%;
+  padding: 30px;
+  margin: 20px;
 }
 
 .sec-1 {
@@ -113,8 +113,8 @@ footer {
   position: relative;
   background-size: auto;
   background-position: center;
-  height: fit-content;
-  width: 100vw;
+  height: 900px;
+  width: 100%;
   padding: 30px;
   margin: 20px;
 }
@@ -126,7 +126,7 @@ footer {
   position: relative;
   background-size: auto;
   background-position: center;
-  height: fit-content;
+  height: 900px;
   width: 100vw;
   padding: 30px;
   margin: 20px;
@@ -139,7 +139,7 @@ footer {
   position: relative;
   background-size: auto;
   background-position: center;
-  height: fit-content;
+  height: 900px;
   width: 100vw;
   padding: 30px;
   margin: 20px;
