@@ -6,8 +6,8 @@ html {
   background-image: url(knot.jpg);
   background-size: auto;
   background-position: center;
-  position: relative;
   width: auto;
+  overflow-x: hidden;
 }
 
 .title {
@@ -128,7 +128,7 @@ footer {
   background-size: auto;
   background-position: center;
   height: 900px;
-  width: 100vw;
+  width: 100%;
   padding: 30px;
   margin: 20px;
 }
@@ -141,7 +141,7 @@ footer {
   background-size: auto;
   background-position: center;
   height: 900px;
-  width: 100vw;
+  width: 100%;
   padding: 30px;
   margin: 20px;
 }
