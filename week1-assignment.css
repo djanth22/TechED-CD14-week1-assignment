@@ -1,12 +1,13 @@
-body {
+body,
+html {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: url(knot.jpg);
   background-size: auto;
   background-position: center;
-  overflow-x: hidden;
   position: relative;
+  width: auto;
 }
 
 .title {
