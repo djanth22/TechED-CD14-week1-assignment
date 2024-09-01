@@ -1,10 +1,14 @@
-html,
 body {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  background-color: rgb(43, 8, 7);
+  justify-content: center;
+  background-image: url(knot.jpg);
+  background-size: contain;
+  background-position: center;
+  width: 100vw;
   overflow-x: hidden;
+  position: relative;
+  right: 20px;
 }
 
 .title {
@@ -13,18 +17,26 @@ body {
   padding-bottom: 30px;
 }
 
-.sections-container {
-  background-color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 .main-title {
   text-align: center;
+  color: #c6e4ff;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: aqua;
+  background-color: #57021460;
+}
+
+.main-title-sub {
+  text-align: center;
+  color: #c6e4ff;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #57021460;
+}
+
+.logo {
+  position: relative;
+  top: 8px;
 }
 
 .navigation-bar-container {
@@ -33,28 +45,30 @@ body {
   background-color: #7a93a81a;
   width: 100%;
   position: fixed;
+  left: 0px;
   z-index: 1;
   height: 100px;
 }
 
 .nav {
+  display: flex;
   text-align: center;
   text-decoration: none;
-  color: rgb(213, 151, 255);
+  color: #c6e4ff;
   margin: 1vw;
-  background-color: #994c4c;
+  background-color: #994c4c60;
   height: 30px;
-  width: 6vw;
+  width: fit-content;
   padding: 10px;
   position: relative;
-  top: 22px;
-  border: 3px, solid, #ff0000;
+  top: 10px;
+  border: 3px, solid, #ff000060;
   z-index: 1;
 }
 
 .nav:hover {
-  background-color: rgb(175, 137, 211);
-  color: red;
+  background-color: #e16a6a60;
+  color: #ffffff;
 }
 
 .navigation-content {
@@ -63,52 +77,82 @@ body {
 }
 
 footer {
+  text-align: center;
+  color: #c6e4ff;
   margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: bisque;
+  background-color: #41001b;
 }
 
 .sections-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
   top: 30px;
-  background-color: rgb(47, 150, 150);
   margin-top: 30px;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
-.sec {
-  background-image: url(placeholder-images.jpg);
+.top-sec {
+  background-image: url(knot2-v2.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.sec-1 {
+  background-image: url(knot2-v2.jpg);
   position: relative;
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100vw;
-  margin: 2px;
+}
+
+.sec-2 {
+  background-image: url(knot2-v2.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sec-3 {
+  background-image: url(knot2-v2.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .titles {
+  color: #c6e4ff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 40px;
-  background-color: aqua;
+  font-size: 65px;
+  background-color: #8a2e1970;
   width: fit-content;
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
-  top: 400px;
+  top: 200px;
   left: 100px;
 }
 
 .sub {
-  font-size: 25px;
-  border: 3px, solid, black;
-  background-color: aquamarine;
+  font-size: 45px;
+  border: 3px, solid, #a10202;
+  background-color: #ec4949;
 }
 
 .sub:hover {
-  background-color: rgb(143, 190, 230);
+  background-color: #610039;
 }
 
 .contact {
@@ -119,6 +163,12 @@ footer {
   margin-right: 1vw;
   position: relative;
   top: 10px;
+  text-decoration: underline;
+  color: #c6e4ff;
+}
+
+.contact:hover {
+  background-color: #610039;
 }
 
 .contact-links {
@@ -134,16 +184,46 @@ footer {
   width: 100%;
 }
 
-.BTT {
-  position: relative;
-  left: 38vw;
-  bottom: 60px;
-  background-color: rgb(174, 174, 252);
-  text-decoration: none;
-  padding: 20px;
-  border: 3px, solid, purple;
+.BTT-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  background-color: #75303060;
 }
 
-footer {
-  text-align: center;
+.BTT {
+  color: #c6e4ff;
+  display: flex;
+  bottom: 60px;
+  background-color: rgb(184, 87, 87);
+  text-decoration: none;
+  padding: 20px;
+  border: 3px, solid, rgb(128, 0, 0);
+}
+
+.BTT:hover {
+  background-color: #610039;
+}
+
+#contacts {
+  background-color: #ff8b8b99;
+  margin: 0px;
+  padding: 30px;
+}
+
+.section-image {
+  height: 700px;
+  width: 700px;
+  position: relative;
+  left: 60%;
+  bottom: 100px;
+  mix-blend-mode: screen;
+}
+
+.anvil {
+  position: relative;
+  top: 150px;
+  width: 600px;
+  height: 400px;
 }
