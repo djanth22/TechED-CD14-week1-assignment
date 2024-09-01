@@ -7,6 +7,7 @@ html {
   background-size: auto;
   background-position: center;
   width: auto;
+  overflow-x: hidden;
 }
 
 .title {
